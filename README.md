@@ -2,6 +2,16 @@
 
 This is a template application, featuring a simple react app with some tests. This can be used as a starting point for showcasing Copilot features on an existing repository.
 
+After creating a copy of this template you need to set up a couple of things
+- Enable GitHub Pages. It should be coming from Actions
+- Change the homepage url in the `package.json` file to match the owner and repository names
+
+We have created some scenarios that you can go through to explore the gh copilot features
+
+- [Set up branch protection rules](./docs/01-Setting-Up-Branch-Protection-Rules.md)
+- [Setting up Testing in CI](./docs/02-Setting-Up-Tests.md)
+- [Modyfying Current Deployment Pipeline](./docs/03-Modifying-Deployment-Pipeline.md)
+
 ## Available Scripts
 
 In the project directory, you can run:
