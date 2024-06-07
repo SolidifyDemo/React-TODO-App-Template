@@ -1,18 +1,35 @@
 # Setting Up Tests
 
-We have some tests created for this repository. 
+We have some tests created for this repository. Let's add a few more.
+
+```prompt
+Please suggest some more tests for my ToDo app
+```
+Notice that one reference was used. Show using @workspace
+```prompt	
+@workspace I would like to generate some more tests for this todo app.
+```
+Point out that more references were used.
+
+Accept the changes, or not.
+
+Point out the recommended next question, if it is a little interesting. If For example, in my case it was:
+<br />
+![Copilot suggests asking mimicking user interaction](images/prompt.png)
+If suggestion is not so relevant, suggest the participants keep an eye on the suggestions.
+
 Currently the developers are to make sure that these runs before making a Pull Request. 
 
 We want to enforce this as mistakes happen, and it is important for us to know 100% that all changes have been tested.
 
 We'll ask Copilot to help us creating a workflow to help us enforce this.
 
-```promt
-I have some tests I have created for this repository. I want to enforce them to run before a pr can be accepted. how will i do that
+```prompt
+How can I ensure the tests always run before a pr can be accepted?
 ```
 
 (IF it suggest something else than GitHub Actions)
-```promt
+```prompt
 it needs to be already integrated with github
 ```
 
@@ -22,7 +39,7 @@ We take a look to find the correct version numbers.
 
 We decide that we'll need to test this both for node version 18 and 20. We might want to support this in different environments, some which are outdated.
 
-```promt
+```prompt
 can i run the tests for more than one version?
 ```
 
@@ -31,7 +48,7 @@ Now we have some tests that we can run. Lets commit and push this, and lets crea
 When we create a PR we can show how copilot can help create a description and to explain the changes in the PR.
 
 We want to reuse these steps in other workflows. We'll ask Copilot to make this happen
-```promt
+```prompt
 I want to resuse these steps in other workflows, how can I reuse them?
 ```
 
