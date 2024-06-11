@@ -1,6 +1,6 @@
-# Copilot Workshop - CI/CD with React App
-
 ![Solidify logo](docs/images/solidify.svg)
+
+# Copilot Workshop - CI/CD with React TODO App
 
 This is a template application, featuring a simple react app with some tests. This can be used as a starting point for showcasing Copilot features on an existing repository.
 
